@@ -1,0 +1,16 @@
+name: measure_size
+description: A widget that provides a callback
+repository: https://github.com/truthmast/measure_size
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  pedantic: ^1.9.0
+  flutter_test:
+    sdk: flutter
