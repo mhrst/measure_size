@@ -1,6 +1,6 @@
 name: measure_size
 description: A widget that provides a callback
-repository: https://github.com/truthmast/measure_size
+repository: https://github.com/mhrst/measure_size
 version: 1.0.0+1
 
 environment:
