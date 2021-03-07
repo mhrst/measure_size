@@ -1,3 +1,7 @@
+## [2.0.0] - 2020-03-07
+### Changed
+- Migrated to null-safety
+
 ## [1.0.0+1] - 2020-09-26
 - Initial release
 
