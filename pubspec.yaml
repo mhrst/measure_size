@@ -1,6 +1,8 @@
 name: measure_size
 description: A widget that provides a callback
+homepage: https://github.com/mhrst/measure_size
 repository: https://github.com/mhrst/measure_size
+issue_tracker: https://github.com/mhrst/measure_size/issues
 version: 2.0.0
 
 environment:
