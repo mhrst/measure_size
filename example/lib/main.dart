@@ -68,9 +68,13 @@ class _MeasureSizePageState extends State<MeasureSizePage> {
         ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.text_snippet),
-          onPressed: () => setState(() => _text = _text +
-              ' ' +
-              ['lorem', 'ipsum', 'dolor', 'sit', 'amet'][Random().nextInt(4)]),
+          onPressed: () => setState(() => _text = '$_text ${[
+                'lorem',
+                'ipsum',
+                'dolor',
+                'sit',
+                'amet'
+              ][Random().nextInt(4)]}'),
         ),
       );
 }

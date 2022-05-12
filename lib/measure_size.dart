@@ -17,16 +17,17 @@ class MeasureSize extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _MeasureSizeState createState() => _MeasureSizeState();
+  State<MeasureSize> createState() => _MeasureSizeState();
 }
 
 class _MeasureSizeState extends State<MeasureSize> {
-  var widgetKey = GlobalKey();
+  final widgetKey = GlobalKey();
 
-  var oldSize;
+  Size? oldSize;
+
   @override
   Widget build(BuildContext context) {
-    SchedulerBinding.instance?.addPostFrameCallback(postFrameCallback);
+    SchedulerBinding.instance.addPostFrameCallback(postFrameCallback);
     return Container(
       key: widgetKey,
       child: widget.child,
