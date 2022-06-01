@@ -1,12 +1,13 @@
 name: measure_size
-description: A widget that provides a callback
+description: A widget that provides a callback that is triggered when its size changes
 homepage: https://github.com/mhrst/measure_size
 repository: https://github.com/mhrst/measure_size
 issue_tracker: https://github.com/mhrst/measure_size/issues
-version: 3.0.0
+version: 3.0.1
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
+  flutter: '>=3.0.0'
 
 dependencies:
   flutter:
