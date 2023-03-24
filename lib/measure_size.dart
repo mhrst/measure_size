@@ -26,8 +26,13 @@ class _MeasureSizeState extends State<MeasureSize> {
   Size? oldSize;
 
   @override
-  Widget build(BuildContext context) {
+  void initState() {
+    super.initState();
     SchedulerBinding.instance.addPostFrameCallback(postFrameCallback);
+  }
+
+  @override
+  Widget build(BuildContext context) {
     return Container(
       key: widgetKey,
       child: widget.child,
