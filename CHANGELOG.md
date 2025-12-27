@@ -1,3 +1,10 @@
+## [5.0.0] - 2025-12-27
+- Added `MeasureSizeBuilder` using prototype elements to measure the sizes of multiple widgets with custom constraints.
+- `MeasureSize` now uses a `SingleChildRenderObjectWidget` to measure size instead of the `build` method of a `StatefulWidget`.
+
+## [4.0.0] - 2022-09-08
+- Added MeasureSizeRenderObjectWidget as alternative way to detect size changes outside of `build` calls.
+
 ## [3.0.1] - 2022-06-01
 - Fix Flutter SDK constraints
 - Fix package description

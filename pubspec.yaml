@@ -3,7 +3,7 @@ description: A widget that provides a callback that is triggered when its size c
 homepage: https://github.com/mhrst/measure_size
 repository: https://github.com/mhrst/measure_size
 issue_tracker: https://github.com/mhrst/measure_size/issues
-version: 3.0.1
+version: 5.0.0
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
