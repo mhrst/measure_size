@@ -1,3 +1,7 @@
+## [5.0.1] - 2025-12-27
+- Update `flutter_lints` to version 6.0.0
+- Update `demo.gif`
+
 ## [5.0.0] - 2025-12-27
 - Added `MeasureSizeBuilder` using prototype elements to measure the sizes of multiple widgets with custom constraints.
 - `MeasureSize` now uses a `SingleChildRenderObjectWidget` to measure size instead of the `build` method of a `StatefulWidget`.
