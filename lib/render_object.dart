@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
 class MeasureSize extends SingleChildRenderObjectWidget {
-  final ValueChanged<Size?> onChange;
+  final ValueChanged<Size> onChange;
 
   const MeasureSize({
     super.key,
@@ -18,7 +18,7 @@ class MeasureSize extends SingleChildRenderObjectWidget {
 
 class MeasureSizeRenderObject extends RenderProxyBox {
   Size? oldSize;
-  final ValueChanged<Size?> onChange;
+  final ValueChanged<Size> onChange;
 
   MeasureSizeRenderObject(this.onChange);
 

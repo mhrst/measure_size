@@ -1,3 +1,6 @@
+## [5.0.2] - 2025-12-27
+- Fix `onChange` callback to emit non-nullable value
+
 ## [5.0.1] - 2025-12-27
 - Update `flutter_lints` to version 6.0.0
 - Update `demo.gif`
